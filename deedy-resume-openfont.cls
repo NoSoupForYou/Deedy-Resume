@@ -28,26 +28,15 @@
 \setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 
-% Date command
-\usepackage[absolute]{textpos}
-\usepackage[UKenglish]{isodate}
-\setlength{\TPHorizModule}{1mm}
-\setlength{\TPVertModule}{1mm}
-\newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
-Last Updated on \today
-\end{textblock}}
-
 % Name command
-\newcommand{\namesection}[3]{
+\newcommand{\namesection}[2]{
 \centering{
-\fontsize{40pt}{60pt}
-\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
+\fontsize{20pt}{30pt}
+\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #2}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
 }
