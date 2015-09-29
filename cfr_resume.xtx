@@ -58,8 +58,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Carlos F. Ramirez}{\href{mailto:cfr7@cornell.edu}{cfr7@cornell.edu} | (786) 797 - 2654 \\
-4933 Buckingham Court Apt 1E, St Louis, MO 63108}
+\namesection{Carlos F. Ramirez}{\href{mailto:cfr7@cornell.edu}{cfr7@cornell.edu}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -153,32 +152,40 @@ Cornell Glowsticking Club (GSC)
 
 \section{Experience}
 \sectionsep
-\runsubsection{Bloomberg, L.P.}
-\descript{| Financial Software Engineer}
-\location{Jul 2011 - Nov 2014 | New York, NY}
+
+\runsubsection{Fluidly, Co.}
+\descript{| Mobile Application Developer}
+\location{July 2015 - Present | St Louis, MO}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 
+\item Wrote a mobile application for discovery of beer menus at dozens of locations and growing using the Ionic framework
+and Angular JS on Apache Cordova, currently deployed to both the Google Play Store and the Apple Store.
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Bloomberg, L.P.}
+\descript{| Financial Software Engineer}
+\location{Jul 2011 - Nov 2014 | New York, NY}
+\begin{tightemize}
+
 \item Took over lead development of \textbf{jobqueue}, an event-based distributed system to process the sanitization, storage,
-and QA of servicer data for over 60,000 securities and growing. Introduced ZeroMQ to change it from a polling
-system on one machine to an event-driven network of up to 196 nodes with real-time job control. Wrote the system CLI
-and trained 5 analysts in its use. Wrote and maintained the job API facing analyst and business teams.
+and QA of servicer data for over 60,000 securities and growing. Introduced ZeroMQ to improve redundancy and scale up to a
+network of up to 196 nodes with real-time job control.
 
 \item Led development of \textbf{remitscript2}, a YAML-based language for extraction of financial data from XLS, PDF,
 and TXT files in dozens of individual formats. Coordinated with a team of 50 analysts in NYC and Shanghai to develop
 version-controlled extraction scripts for over 60,000 securities from 25 servicers worldwide.
 
-\item Wrote \textbf{testscript2}, a distributed, test-driven Extraction, Transform, and Load system designed to update
-information monthly on all available mortgage securities. Wrote a data QA framework integrated with \textbf{jobqueue} using
-ZeroMQ, Git, and Jenkins and trained a team of analysts in writing, QAing, and deploying new tests.
-
 \item Led continuing development of \textbf{SixPoint}, a tool which translates procedural CDI payment scripts
 into a custom format in YAML using PyPEG and NumPY. Ported 2000 securities over to a new cashflow engine and
 wrote a suite of simulation tests to asses translation quality.
 
-\item Worked on \textbf{loanscript2}, a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United States.
-Designed and implemented a statistical method to detect incorrect or incomplete data, in addition to a numerical approach to
-"filling in" missing pieces of data to use in cashflow projections.
+\item Worked on \textbf{loanscript2}, a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United
+States and the code which generates new monthly data from various sources, made available to engine and business teams
+and terminal clients. Designed and implemented a statistical method to detect incorrect or incomplete loan data, in addition
+to a numerical approach to "filling in" missing pieces of data to use in cashflow projections.
 
 \end{tightemize}
 \sectionsep
