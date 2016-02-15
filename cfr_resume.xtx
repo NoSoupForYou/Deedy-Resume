@@ -104,13 +104,14 @@ College of Arts and Sciences \\
 \subsection{Technologies}
 \sectionsep
 \textbf{Databases} \\
-MySQL \textbullet{} MongoDB \textbullet{} HyperDex \\
+SQLite \textbullet{} MySQL \textbullet{} MongoDB \textbullet{} HyperDex \\
 \textbf{Frameworks} \\
-Flask \textbullet{} Express/NodeJS \\
+Flask \textbullet{} Express/NodeJS \textbullet{} ReactJS \\
+Ionic \textbullet{} Apache Cordova \textbullet{} AngularJS \\
 \textbf{Version Control \& Deployment} \\
 Git \textbullet{} SVN \textbullet{} Jenkins CI \\
 \textbf{Operating Systems} \\
-RedHat, Debian, Arch, OS X \\
+RedHat \textbullet{} Debian \textbullet{} Arch \textbullet{} OS X \\
 \textbf{Other} \\
 ZeroMQ \textbullet{} JSON \textbullet{} YAML \\
 PyPEG (Parser Generator) \\
