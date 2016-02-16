@@ -94,7 +94,7 @@ College of Arts and Sciences \\
 \textbf{JavaScript (ES5)} & 10K+ lines \\
 \textbf{C}                & 5K+ lines \\
 \textbf{C++}              & 5K+ lines \\
-\textbf{Matlab}           & 1K+ lines \\
+\textbf{Octave/Matlab}    & 1K+ lines \\
 \textbf{\LaTeX\ }         & 1K+ lines \\
 \textbf{Ruby}             & 1K+ lines \\
 \textbf{Haskell}          & Familiar \\
@@ -116,6 +116,7 @@ RedHat \textbullet{} Debian \textbullet{} Arch \textbullet{} OS X \\
 ZeroMQ \textbullet{} JSON \textbullet{} YAML \\
 PyPEG (Parser Generator) \\
 Scrapy (Web Scraping Framework) \\
+Amazon Web Services (AWS) \\
 \sectionsep
 
 \subsection{Additional}
@@ -166,6 +167,17 @@ and Angular JS on Apache Cordova, currently deployed to both the Google Play Sto
 \end{tightemize}
 \sectionsep
 
+\runsubsection{Monsanto}
+\descript{| Software Developer}
+\location{October 2015 - December 2015 | St Louis, MO}
+\begin{tightemize}
+
+\item Worked on the frontend of a data entry web application for agricultural crop projections and their analysis using
+ReactJS and a customized version of Bootstrap, deployed to AWS.
+
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Bloomberg, L.P.}
 \descript{| Financial Software Engineer}
 \location{Jul 2011 - Nov 2014 | New York, NY}
@@ -178,10 +190,6 @@ network of up to 196 nodes with real-time job control.
 \item Led development of \textbf{remitscript2}, a YAML-based language for extraction of financial data from XLS, PDF,
 and TXT files in dozens of individual formats. Coordinated with a team of 50 analysts in NYC and Shanghai to develop
 version-controlled extraction scripts for over 60,000 securities from 25 servicers worldwide.
-
-\item Led continuing development of \textbf{SixPoint}, a tool which translates procedural CDI payment scripts
-into a custom format in YAML using PyPEG and NumPY. Ported 2000 securities over to a new cashflow engine and
-wrote a suite of simulation tests to asses translation quality.
 
 \item Worked on \textbf{loanscript2}, a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United
 States and the code which generates new monthly data from various sources, made available to engine and business teams
