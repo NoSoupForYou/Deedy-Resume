@@ -180,7 +180,7 @@ ReactJS and a customized version of Bootstrap, deployed to AWS.
 
 \runsubsection{Bloomberg, L.P.}
 \descript{| Financial Software Engineer}
-\location{Jul 2011 - Nov 2014 | New York, NY}
+\location{July 2011 - November 2014 | New York, NY}
 \begin{tightemize}
 
 \item Took over lead development of \textbf{jobqueue}, an event-based distributed system to process the sanitization, storage,
