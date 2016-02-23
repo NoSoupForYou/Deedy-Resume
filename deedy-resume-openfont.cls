@@ -31,12 +31,12 @@
 % Name command
 \newcommand{\namesection}[2]{
 \centering{
-\fontsize{20pt}{30pt}
+\fontsize{22pt}{20pt}
 \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #2}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #2}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
 }

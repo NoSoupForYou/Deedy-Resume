@@ -58,7 +58,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Carlos F. Ramirez}{\href{mailto:cfr7@cornell.edu}{cfr7@cornell.edu} | (786) 797 - 2654 \\
+\namesection{Carlos F. Ram\'{i}rez}{\href{mailto:cfr7@cornell.edu}{cfr7@cornell.edu} | (786) 797 - 2654 \\
 811 Town and Country Blvd Apt 279, Houston, TX 77024}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -67,7 +67,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth}
+\begin{minipage}[t]{0.29\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -105,7 +105,7 @@ College of Arts and Sciences \\
 \subsection{Technologies}
 \sectionsep
 \textbf{Databases} \\
-SQLite \textbullet{} MySQL \textbullet{} MongoDB \textbullet{} HyperDex \\
+SQLite \textbullet{} MySQL \textbullet{} MongoDB \\
 \textbf{Frameworks} \\
 Flask \textbullet{} Express/NodeJS \textbullet{} ReactJS \\
 Ionic \textbullet{} Apache Cordova \textbullet{} AngularJS \\
@@ -122,7 +122,9 @@ Amazon Web Services (AWS) \\
 
 \subsection{Additional}
 \sectionsep
-Fluent in Spanish
+Read, write, and speak Spanish \\
+Familiar with French \\
+Familiar with German
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -131,13 +133,9 @@ Fluent in Spanish
 
 \section{Interests}
 \sectionsep
-Snowboarding \textbullet{} Skateboarding \textbullet{} Cycling \\
-ITF Taekwon-Do \textbullet{} Chess \textbullet{} Guitar \\
-
-\sectionsep
-\section{Groups}
-Cornell Cubing Club ($\textrm{C}^{3}$) \\
-Cornell Glowsticking Club (GSC)
+Snowboarding \textbullet{} Skateboarding \\
+Cycling \textbullet{} ITF Taekwon-Do \\
+Chess \textbullet{} Guitar \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -147,7 +145,7 @@ Cornell Glowsticking Club (GSC)
 
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth}
+\begin{minipage}[t]{0.70\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -162,8 +160,9 @@ Cornell Glowsticking Club (GSC)
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 
-\item Wrote a mobile application for discovery of beer menus at dozens of locations and growing using the Ionic framework
-and Angular JS on Apache Cordova, currently deployed to both the Google Play Store and the Apple Store.
+\item Wrote a mobile application for nationwide discovery of beer menus using the Ionic framework and Angular JS,
+currently deployed to both the Google Play Store and the Apple Store. 100\% HTML5, CSS3 and Javascript (ES5) on Arch
+Linux.
 
 \end{tightemize}
 \sectionsep
@@ -174,7 +173,8 @@ and Angular JS on Apache Cordova, currently deployed to both the Google Play Sto
 \begin{tightemize}
 
 \item Worked on the frontend of a data entry web application for agricultural crop projections and their analysis using
-ReactJS and a customized version of Bootstrap, deployed to AWS.
+ReactJS and a customized version of Bootstrap, deployed to AWS. 100\% Javascript (ES6) and JSX through Babel, using
+NodeJS with MongoDB in the backend, on Ubuntu Linux.
 
 \end{tightemize}
 \sectionsep
@@ -184,18 +184,20 @@ ReactJS and a customized version of Bootstrap, deployed to AWS.
 \location{July 2011 - November 2014 | New York, NY}
 \begin{tightemize}
 
-\item Took over lead development of \textbf{jobqueue}, an event-based distributed system to process the sanitization, storage,
-and QA of servicer data for over 60,000 securities and growing. Introduced ZeroMQ to improve redundancy and scale up to a
-network of up to 196 nodes with real-time job control.
+\item Took over lead development of \textbf{jobqueue}, an event-based distributed system to process the sanitization,
+storage, and QA of servicer data for over 60,000 securities. Introduced ZeroMQ to improve redundancy and scale up to
+196 nodes with real-time job control. 100\% Python 2 on Red Hat Linux (RHEL 5 \& 6).
 
 \item Led development of \textbf{remitscript2}, a YAML-based language for extraction of financial data from XLS, PDF,
 and TXT files in dozens of individual formats. Coordinated with a team of 50 analysts in NYC and Shanghai to develop
-version-controlled extraction scripts for over 60,000 securities from 25 servicers worldwide.
+version-controlled extraction scripts for over 60,000 securities from 25 servicers worldwide. 100\% Python 2 on Red Hat
+Linux (RHEL 5 \& 6).
 
 \item Worked on \textbf{loanscript2}, a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United
 States and the code which generates new monthly data from various sources, made available to engine and business teams
-and terminal clients. Designed and implemented a statistical method to detect incorrect or incomplete loan data, in addition
-to a numerical approach to "filling in" missing pieces of data to use in cashflow projections.
+and terminal clients. Designed and implemented a statistical method to detect incorrect or incomplete loan data, in
+addition to a numerical approach to "filling in" missing pieces of data to use in cashflow projections. 100\% Python on
+Red Hat Linux (RHEL 5 \& 6).
 
 \end{tightemize}
 \sectionsep
@@ -220,7 +222,7 @@ Waves, Optics, and Thermodynamics
 \begin{tightemize}
 \item Assisted \textit{\href{http://muchomas.lassp.cornell.edu}{Prof. Tomas Arias}} in administering
 a 48-node open source supercomputer and building of a second 24-node system. Ran density-functional theory
-calculations through DFT++ with Python and Octave.
+calculations through DFT++ with Python 2 and Octave.
 \end{tightemize}
 \sectionsep
 
