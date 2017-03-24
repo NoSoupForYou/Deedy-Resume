@@ -31,12 +31,12 @@
 % Name command
 \newcommand{\namesection}[2]{
 \centering{
-\fontsize{22pt}{20pt}
+\fontsize{20pt}{16pt}
 \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #2}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{8pt}{10pt}\selectfont #2}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
 }
@@ -49,7 +49,7 @@
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{14pt}{20pt}\selectfont \raggedright\uppercase}{}{0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{

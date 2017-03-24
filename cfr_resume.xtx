@@ -59,7 +59,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Carlos F. Ram\'{i}rez}{\href{mailto:cfr7@cornell.edu}{cfr7@cornell.edu} | (786) 797 - 2654 \\
-811 Town and Country Blvd Apt 279, Houston, TX 77024}
+5618 Court of Lions St, Houston, TX 77069}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -90,8 +90,8 @@ College of Arts and Sciences \\
 \subsection{Languages}
 \sectionsep
 \begin{tabular}{ l r }
-\textbf{Python}           & 50K+ lines \\
-\textbf{Bash}             & 10K+ lines \\
+\textbf{Python}           & 100K+ lines \\
+\textbf{Bash}             & 20K+ lines \\
 \textbf{JavaScript (ES5)} & 10K+ lines \\
 \textbf{C}                & 5K+ lines \\
 \textbf{C++}              & 5K+ lines \\
@@ -123,8 +123,6 @@ Amazon Web Services (AWS) \\
 \subsection{Additional}
 \sectionsep
 Read, write, and speak Spanish \\
-Familiar with French \\
-Familiar with German
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -133,6 +131,7 @@ Familiar with German
 
 \section{Interests}
 \sectionsep
+Track Motorcycle Riding \\
 Snowboarding \textbullet{} Skateboarding \\
 Cycling \textbullet{} ITF Taekwon-Do \\
 Chess \textbullet{} Guitar \\
@@ -154,59 +153,57 @@ Chess \textbullet{} Guitar \\
 \section{Experience}
 \sectionsep
 
-\runsubsection{Fluidly, Co.}
-\descript{| Mobile Application Developer}
-\location{July 2015 - Present | St Louis, MO}
+\runsubsection{Rackspace, Inc.}
+\descript{| Software Engineer in Test}
+\location{2016 | San Antonio, TX}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 
-\item Wrote a mobile application for nationwide discovery of beer menus using the Ionic framework and Angular JS,
-currently deployed to both the Google Play Store and the Apple Store. 100\% HTML5, CSS3 and Javascript (ES5) on Arch
-Linux.
+\item Worked on the testing framework and test bank for Rackspace's Oracle BRM billing management system. Improved test
+throughput enabling daily runs of the system, standardized test data generation for all account/product combinations,
+and provided an API for other services to use to test BRM. Python 2 on OS X for development, tests running on Ubuntu
+Linux through Jenkins.
 
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Monsanto}
+\runsubsection{Monsanto Co.}
 \descript{| Software Developer}
-\location{October 2015 - December 2015 | St Louis, MO}
+\location{2015 | St Louis, MO}
 \begin{tightemize}
 
 \item Worked on the frontend of a data entry web application for agricultural crop projections and their analysis using
-ReactJS and a customized version of Bootstrap, deployed to AWS. 100\% Javascript (ES6) and JSX through Babel, using
-NodeJS with MongoDB in the backend, on Ubuntu Linux.
+ReactJS and a customized version of Bootstrap, deployed to AWS. Javascript (ES6) and JSX through Babel.
 
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Bloomberg, L.P.}
 \descript{| Financial Software Engineer}
-\location{July 2011 - November 2014 | New York, NY}
+\location{2011 - 2014 | New York, NY}
 \begin{tightemize}
 
-\item Took over lead development of \textbf{jobqueue}, an event-based distributed system to process the sanitization,
-storage, and QA of servicer data for over 60,000 securities. Introduced ZeroMQ to improve redundancy and scale up to
-196 nodes with real-time job control. 100\% Python 2 on Red Hat Linux (RHEL 5 \& 6).
+\item Took over lead development of a distributed system to process the sanitization, storage, and QA of servicer data
+for over 60,000 securities. Introduced ZeroMQ to improve redundancy and scale up to 196 nodes with real-time job
+control. Python 2 on Red Hat Linux (RHEL 5 \& 6).
 
-\item Led development of \textbf{remitscript2}, a YAML-based language for extraction of financial data from XLS, PDF,
-and TXT files in dozens of individual formats. Coordinated with a team of 50 analysts in NYC and Shanghai to develop
-version-controlled extraction scripts for over 60,000 securities from 25 servicers worldwide. 100\% Python 2 on Red Hat
-Linux (RHEL 5 \& 6).
+\item Led development of a YAML-based language for extraction of financial data from XLS, PDF, and TXT files in dozens
+of individual formats. Coordinated with a team of 50 analysts in NYC and Shanghai to develop version-controlled
+extraction scripts for over 60,000 securities from 25 servicers worldwide. Python 2 on Red Hat Linux (RHEL 5 \& 6).
 
-\item Worked on \textbf{loanscript2}, a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United
-States and the code which generates new monthly data from various sources, made available to engine and business teams
-and terminal clients. Designed and implemented a statistical method to detect incorrect or incomplete loan data, in
-addition to a numerical approach to "filling in" missing pieces of data to use in cashflow projections. 100\% Python on
-Red Hat Linux (RHEL 5 \& 6).
+\item Worked on a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United States and the code
+which generates new monthly data from various sources, made available to tech and business teams and terminal clients.
+Designed and implemented a statistical method to detect incorrect or incomplete loan data, in addition to a numerical
+approach to "filling in" missing pieces of data to use in cashflow projections. Python 2 on Red Hat Linux (RHEL 5 \& 6).
 
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Cornell University}
 \descript{| Teaching Assistant, Physics Dept.}
-\location{August 2008 - May 2011 | Ithaca, NY}
+\location{2008 - 2011 | Ithaca, NY}
 \begin{tightemize}
-\item Tutored students taking any of the college’s introductory physics courses, covering Mechanics, Electricity and Magnetism,
+\item Tutored physics courses covering Mechanics, Electricity and Magnetism,
 Waves, Optics, and Thermodynamics
 \end{tightemize}
 
@@ -218,21 +215,19 @@ Waves, Optics, and Thermodynamics
 \sectionsep
 \runsubsection{Cornell University}
 \descript{| Lab Assistant}
-\location{October 2006 - Dec 2009 | Ithaca, NY}
+\location{2006 - 2009 | Ithaca, NY}
 \begin{tightemize}
-\item Assisted \textit{\href{http://muchomas.lassp.cornell.edu}{Prof. Tomas Arias}} in administering
-a 48-node open source supercomputer and building of a second 24-node system. Ran density-functional theory
-calculations through DFT++ with Python 2 and Octave.
+\item Assisted \textit{\href{http://muchomas.lassp.cornell.edu}{Prof. Tomas Arias}} with building and administering
+a 48-node supercomputer. Ran density-functional theory calculations through DFT++ with Python 2 and Octave.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Florida International University}
 \descript{| Lab Assistant}
-\location{April 2006 - July 2011 | Miami, FL}
+\location{2006 - 2011 | Miami, FL}
 \begin{tightemize}
 \item Worked with \textit{\href{http://chemistry.fiu.edu/faculty/kenneth-furton/}{Prof. Kenneth Furton}} to develop and
-maintain Java and Excel VBA data analysis software, investigating the chemical composition
-of human scent.
+maintain Java and Excel VBA data analysis software, investigating the chemical composition of human scent.
 \end{tightemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
