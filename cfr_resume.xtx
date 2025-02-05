@@ -58,8 +58,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Carlos F. Ram\'{i}rez}{\href{mailto:cfr7@cornell.edu}{cfr7@cornell.edu} | (786) 797 - 2654 \\
-5618 Court of Lions St, Houston, TX 77069}
+\namesection{Carlos F.  Ram\'{i}rez}
+{\href{mailto:cramsoftware@gmail.com}{cramsoftware@gmail.com} | Based in Houston, TX}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -87,54 +87,57 @@ College of Arts and Sciences \\
 
 \section{Skills}
 \sectionsep
+
 \subsection{Languages}
 \sectionsep
+
 \begin{tabular}{ l r }
-\textbf{Python}           & 100K+ lines \\
-\textbf{Bash}             & 20K+ lines \\
-\textbf{JavaScript (ES5)} & 10K+ lines \\
-\textbf{C}                & 5K+ lines \\
-\textbf{C++}              & 5K+ lines \\
-\textbf{Octave/Matlab}    & 1K+ lines \\
-\textbf{\LaTeX\ }         & 1K+ lines \\
-\textbf{Ruby}             & 1K+ lines \\
-\textbf{Haskell}          & Familiar \\
+\textbf{Python}           & Very Proficient \\
+\textbf{Bash / ZSH}       & Very Proficient \\
+\textbf{JavaScript}       & Proficient \\
+\textbf{C}                & Familiar \\
+\textbf{C++}              & Familiar \\
+\textbf{Octave/Matlab}    & Familiar \\
 \end{tabular}
 \sectionsep
 
 \subsection{Technologies}
 \sectionsep
+
 \textbf{Databases} \\
-SQLite \textbullet{} MySQL \textbullet{} MongoDB \\
+AWS Athena \textbullet{} AWS S3 \\
+PostgreSQL \textbullet{} MySQL \textbullet{} MariaDB \\
+SQLite \textbullet{} MongoDB \textbullet{} Redis \\
+JPMorgan Athena
+
 \textbf{Frameworks} \\
-Flask \textbullet{} Express/NodeJS \textbullet{} ReactJS \\
-Ionic \textbullet{} Apache Cordova \textbullet{} AngularJS \\
+FastAPI \textbullet{} Tornado \textbullet{} Flask \\
+ReactJS \textbullet{} AngularJS \textbullet{} NodeJS \\
+React Native \textbullet{} Ionic \\
+
 \textbf{Version Control \& Deployment} \\
-Git \textbullet{} SVN \textbullet{} Jenkins CI \\
+Github \textbullet{} Git \textbullet{} SVN \\
+Github Actions \textbullet{} Jenkins CI \\
+Docker \textbullet{} Kubernetes \\
+
 \textbf{Operating Systems} \\
 RedHat \textbullet{} Debian \textbullet{} Arch \textbullet{} OS X \\
+
 \textbf{Other} \\
-ZeroMQ \textbullet{} JSON \textbullet{} YAML \\
-PyPEG (Parser Generator) \\
-Scrapy (Web Scraping Framework) \\
 Amazon Web Services (AWS) \\
+Apache Kafka \textbullet{} RabbitMQ \\
+Pandas \textbullet{} Modin \\
+ZeroMQ \textbullet{} Selenium \\
 \sectionsep
 
 \subsection{Additional}
 \sectionsep
-Read, write, and speak Spanish \\
-\sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     INTERESTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Interests}
+Team management and mentoring
+Technical writing and communication
+Technical training and teaching
+Read, write, and speak Spanish
 \sectionsep
-Track Motorcycle Riding \\
-Snowboarding \textbullet{} Skateboarding \\
-Cycling \textbullet{} ITF Taekwon-Do \\
-Chess \textbullet{} Guitar \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -150,19 +153,55 @@ Chess \textbullet{} Guitar \\
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
+\section{Relevant Experience}
+\sectionsep
+
+\runsubsection{Hartree Partners, Inc.}
+\descript{| Sr. Software Engineer}
+\location{2022 - 2024 | Houston, TX}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+
+\item Implemented borrowing base models and APIs for lenders aggregating all asset values from 15
+ETRM systems, feeding both web and BI frontends. Developed a data processing framework on top of
+Modin outperforming Apache Beam, speeding up model runs tenfold. Python 3.8 on AWS
+
+\item Developed streaming APIs to process and aggregate ETRM data for front and
+middle office systems. Python 3.8 on AWS
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{JP Morgan Chase \& Co.}
+\descript{| VP. Software Engineer}
+\location{2017 - 2021 | Houston, TX}
+\begin{tightemize}
+
+\item Led the development team for a web application governing Market Risk trading
+limits, responsible for both application architecture and feature delivery of a team of
+8 developers. Python 2.7 on RedHat Linux through the Athena platform, Python
+3.6 on K8s, ReactJS for frontend served out of CloudFoundry.
+
+\item Developed post-trade technology for the FX Cash and FX Options business on the
+Athena platform processing 1M+ daily trade events. Led the onboarding of exotic FX Options assets
+to decommission external systems. Python 2.7 on RedHat Linux through the Athena platform.
+
+\item Collaborated with development teams across the bank to migrate to the cloud through the CTO
+Accelerator Program. Covered everything from CI/CD patterns to microservice decomposition to
+migration of desktop applications to the web with ReactJS, across CloudFoundry, K8s, and AWS.
+Designed and ran two-week AWS training programs for engineers of various levels.
+
+\end{tightemize}
 \sectionsep
 
 \runsubsection{Rackspace, Inc.}
 \descript{| Software Engineer in Test}
 \location{2016 | San Antonio, TX}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 
 \item Worked on the testing framework and test bank for Rackspace's Oracle BRM billing management system. Improved test
 throughput enabling daily runs of the system, standardized test data generation for all account/product combinations,
-and provided an API for other services to use to test BRM. Python 2 on OS X for development, tests running on Ubuntu
-Linux through Jenkins.
+and provided an API for other services to use to test BRM. Python 2 on Ubuntu
 
 \end{tightemize}
 \sectionsep
@@ -172,8 +211,7 @@ Linux through Jenkins.
 \location{2015 | St Louis, MO}
 \begin{tightemize}
 
-\item Worked on the frontend of a data entry web application for agricultural crop projections and their analysis using
-ReactJS and a customized version of Bootstrap, deployed to AWS. Javascript (ES6) and JSX through Babel.
+\item Developed an agricultural projection application. ReactJS/NodeJS on AWS
 
 \end{tightemize}
 \sectionsep
@@ -183,62 +221,23 @@ ReactJS and a customized version of Bootstrap, deployed to AWS. Javascript (ES6)
 \location{2011 - 2014 | New York, NY}
 \begin{tightemize}
 
-\item Took over lead development of a distributed system to process the sanitization, storage, and QA of servicer data
-for over 60,000 securities. Introduced ZeroMQ to improve redundancy and scale up to 196 nodes with real-time job
-control. Python 2 on Red Hat Linux (RHEL 5 \& 6).
+\item Worked on a cashflow projection engine for structured finance assets, modeling
+mortgage-backed securities given dynamic forecasted loan repayment scenarios.
+
+\item Led development of a system to process the sanitization, storage, and QA of servicer data
+for over 60,000 mortgage-backed securities. Introduced ZeroMQ to improve redundancy and scale up to
+196 nodes with real-time job control. Python 2 on Red Hat 6
 
 \item Led development of a YAML-based language for extraction of financial data from XLS, PDF, and TXT files in dozens
 of individual formats. Coordinated with a team of 50 analysts in NYC and Shanghai to develop version-controlled
-extraction scripts for over 60,000 securities from 25 servicers worldwide. Python 2 on Red Hat Linux (RHEL 5 \& 6).
+extraction scripts for over 60,000 securities from 25 servicers worldwide.  Python 2 on Red Hat 6
 
-\item Worked on a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United States and the code
-which generates new monthly data from various sources, made available to tech and business teams and terminal clients.
-Designed and implemented a statistical method to detect incorrect or incomplete loan data, in addition to a numerical
-approach to "filling in" missing pieces of data to use in cashflow projections. Python 2 on Red Hat Linux (RHEL 5 \& 6).
+\item Worked on a 3+TB SQLite/MongoDB database of all historical mortgage loan data in the United
+States and monthly update logic from various sources, and aggregation APIs for tech and business
+teams and terminal clients. Python 2 on Red Hat 6
 
 \end{tightemize}
 \sectionsep
-
-\runsubsection{Cornell University}
-\descript{| Teaching Assistant, Physics Dept.}
-\location{2008 - 2011 | Ithaca, NY}
-\begin{tightemize}
-\item Tutored physics courses covering Mechanics, Electricity and Magnetism,
-Waves, Optics, and Thermodynamics
-\end{tightemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Research}
-\sectionsep
-\runsubsection{Cornell University}
-\descript{| Lab Assistant}
-\location{2006 - 2009 | Ithaca, NY}
-\begin{tightemize}
-\item Assisted \textit{\href{http://muchomas.lassp.cornell.edu}{Prof. Tomas Arias}} with building and administering
-a 48-node supercomputer. Ran density-functional theory calculations through DFT++ with Python 2 and Octave.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Florida International University}
-\descript{| Lab Assistant}
-\location{2006 - 2011 | Miami, FL}
-\begin{tightemize}
-\item Worked with \textit{\href{http://chemistry.fiu.edu/faculty/kenneth-furton/}{Prof. Kenneth Furton}} to develop and
-maintain Java and Excel VBA data analysis software, investigating the chemical composition of human scent.
-\end{tightemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Publications}
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
 
 \end{minipage}
 \end{document}  \documentclass[]{article}
