@@ -167,7 +167,7 @@ ETRM systems, feeding both web and BI frontends. Developed a data processing fra
 Modin outperforming Apache Beam, speeding up model runs tenfold. Python 3.8 on AWS
 
 \item Developed streaming APIs to process and aggregate ETRM data for front and
-middle office systems. Python 3.8 on AWS
+middle office systems. Python 3.8 on AWS using Kafka streams
 
 \end{tightemize}
 \sectionsep
@@ -179,17 +179,18 @@ middle office systems. Python 3.8 on AWS
 
 \item Led the development team for a web application governing Market Risk trading
 limits, responsible for both application architecture and feature delivery of a team of
-8 developers. Python 2.7 on RedHat Linux through the Athena platform, Python
-3.6 on K8s, ReactJS for frontend served out of CloudFoundry.
+8 developers. Python 2.7 on RedHat Linux through the Athena platform using Rabbit MQ,
+Python 3.6 on K8s using Kafka, ReactJS for frontend in CloudFoundry
 
 \item Developed post-trade technology for the FX Cash and FX Options business on the
 Athena platform processing 1M+ daily trade events. Led the onboarding of exotic FX Options assets
-to decommission external systems. Python 2.7 on RedHat Linux through the Athena platform.
+to decommission external systems. Python 2.7 on RedHat Linux through the Athena platform using RabbitMQ
 
 \item Collaborated with development teams across the bank to migrate to the cloud through the CTO
 Accelerator Program. Covered everything from CI/CD patterns to microservice decomposition to
-migration of desktop applications to the web with ReactJS, across CloudFoundry, K8s, and AWS.
-Designed and ran two-week AWS training programs for engineers of various levels.
+migration of desktop applications to the web with ReactJS, across CloudFoundry,
+K8s, and AWS, using Kafka and AWS Kinesis for event-based communication.
+Designed and ran two-week AWS training programs for engineers of various levels
 
 \end{tightemize}
 \sectionsep
